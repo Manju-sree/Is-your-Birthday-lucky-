@@ -50,3 +50,8 @@ input {
     text-align: center;
     margin-top: 2rem;
 }
+
+p {
+    text-align-last: right;
+    margin-top: 10%;
+}
