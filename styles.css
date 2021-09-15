@@ -51,7 +51,30 @@ input {
     margin-top: 2rem;
 }
 
-p {
-    text-align-last: right;
-    margin-top: 10%;
+
+/*privacy note*/
+
+
+/* .privacy-note-start {
+    
+    margin-bottom: 0.5rem;
+} */
+
+.privacy-note-start {
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.2rem;
+    padding-bottom: 0.3rem;
+    width: 20%;
+    margin: auto;
+    margin-top: 0.5rem;
+    background: white;
+    border-radius: 0.3rem;
+}
+
+.privacy-note-end {
+    color: red;
+    cursor: pointer;
+    font-size: 0.5rem;
 }
