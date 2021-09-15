@@ -2,6 +2,12 @@ const dateOfBirth = document.querySelector('#date-of-birth');
 const luckyNumber = document.querySelector('#lucky-number');
 const buttonCheckNumber = document.querySelector('#check-number');
 const outputBox = document.querySelector('#output-box');
+const privacyNoteEnd = document.querySelector(".privacy-note-end");
+const privacyNoteStart = document.querySelector(".privacy-note-start");
+
+privacyNoteEnd.addEventListener("click", function() {
+    privacyNoteStart.style.display = "none";
+})
 
 function calculateSum(dob) {
     dob = dob.replaceAll("-", "");
